@@ -7,18 +7,22 @@ O programa determina o nível de um herói com base na sua quantidade de experi�
 
 🧠 Lógica do Desafio
 
-O sistema avalia a quantidade de XP do herói e classifica o nível conforme a tabela abaixo:
+## 📊 Classificação de Níveis do Herói
 
-XP do Herói	Nível
-Menor que 0	Nível inválido
-Até 1000	Ferro
-1001 a 2000	Bronze
-2001 a 5000	Prata
-5001 a 7000	Ouro
-7001 a 8000	Platina
-8001 a 9000	Ascendente
-9001 a 10000	Imortal
-Acima de 10000	Radiante
+A classificação do herói é definida com base na quantidade de experiência (XP), conforme a tabela abaixo:
+
+| XP do Herói        | Nível        |
+|-------------------|--------------|
+| Menor que 0       | Nível inválido |
+| Até 1000          | Ferro        |
+| 1001 a 2000       | Bronze       |
+| 2001 a 5000       | Prata        |
+| 5001 a 7000       | Ouro         |
+| 7001 a 8000       | Platina     |
+| 8001 a 9000       | Ascendente  |
+| 9001 a 10000      | Imortal     |
+| Acima de 10000    | Radiante    |
+
 🛠️ Tecnologias Utilizadas
 
 JavaScript

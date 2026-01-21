@@ -1,30 +1,81 @@
-# Desafio-Nivel-Heroi
-Desafio proposto pela Dio.me, estudando JavaScript.
+🦸 Desafio Nível de Herói — JavaScript
+📌 Descrição do Projeto
 
-Instruções para entrega
-# 1️⃣ Desafio Classificador de nível de Herói
+Este projeto foi desenvolvido como parte de um desafio da DIO (Digital Innovation One), com o objetivo de praticar lógica de programação em JavaScript, utilizando variáveis, operadores e estruturas condicionais.
 
-**O Que deve ser utilizado**
+O programa determina o nível de um herói com base na sua quantidade de experiência (XP).
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+🧠 Lógica do Desafio
 
-## Objetivo
+O sistema avalia a quantidade de XP do herói e classifica o nível conforme a tabela abaixo:
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+XP do Herói	Nível
+Menor que 0	Nível inválido
+Até 1000	Ferro
+1001 a 2000	Bronze
+2001 a 5000	Prata
+5001 a 7000	Ouro
+7001 a 8000	Platina
+8001 a 9000	Ascendente
+9001 a 10000	Imortal
+Acima de 10000	Radiante
+🛠️ Tecnologias Utilizadas
 
-Se XP for menor do que 1.000 = Ferro
-Se XP for entre 1.001 e 2.000 = Bronze
-Se XP for entre 2.001 e 5.000 = Prata
-Se XP for entre 5.001 e 7.000 = Ouro
-Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000= Imortal
-Se XP for maior ou igual a 10.001 = Radiante
+JavaScript
 
-## Saída
+Node.js (para execução no terminal)
 
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
+Git & GitHub (versionamento de código)
+
+▶️ Como Executar o Projeto
+Pré-requisitos
+
+Ter o Node.js instalado na máquina
+
+Passos
+
+Clone o repositório:
+
+git clone https://github.com/marioroseno/Desafio-Nivel-Heroi.git
+
+
+Acesse a pasta do projeto:
+
+cd Desafio-Nivel-Heroi
+
+
+Execute o arquivo:
+
+node index.js
+
+📄 Exemplo de Saída
+O Herói de nome DevMaRoBa está no nível de Radiante
+
+🎯 Objetivos de Aprendizado
+
+Praticar lógica condicional (if / else if / else)
+
+Trabalhar com variáveis em JavaScript
+
+Utilizar operadores lógicos
+
+Versionar código com Git
+
+Publicar projetos no GitHub
+
+👨‍💻 Autor
+
+Mario Roseno Barbosa
+Estudante de Análise e Desenvolvimento de Sistemas
+Apaixonado por tecnologia, programação e aprendizado contínuo 🚀
+
+🔗 GitHub: https://github.com/marioroseno
+
+✅ Status do Projeto
+
+✔️ Concluído
+✔️ Atende aos requisitos do desafio DIO
+
+⭐ Considerações Finais
+
+Este projeto faz parte do meu processo de aprendizado em JavaScript e lógica de programação, servindo como base para desafios mais avançados no futuro.

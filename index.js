@@ -11,7 +11,7 @@ let nivel_6 = "Ascendente"
 let nivel_7 = "Imortal"
 let nivel_8 = "Radiante"
 
-// Estrutura de Decisão usando if e else if, para encontrar o nivel que o heroi se encontra.
+// Estrutura de Decisão usando if , else if e else para encontrar o nivel que o heroi se encontra.
 
 if(xp < 0){
     console.log("Nível inválido")
@@ -22,7 +22,7 @@ if(xp < 0){
 }else if(xp > 2000 && xp <= 5000){
     console.log("O Herói de nome " + heroi + " está no nível de " + nivel_3)
 }else if(xp > 5000 && xp <= 7000){
-    console.log("O Herói de nome " + heroi + " está no nível de " + nive_l4)
+    console.log("O Herói de nome " + heroi + " está no nível de " + nivel_4)
 }else if(xp > 7000 && xp <= 8000){
     console.log("O Herói de nome " + heroi + " está no nível de " + nivel_5)
 }else if(xp > 8000 && xp <= 9000){
